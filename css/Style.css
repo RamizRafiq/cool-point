@@ -13,14 +13,24 @@ margin: 0;
     margin-top: 150px !important;
 }
 
-.cardicon{
-position: absolute;
-top: 35%;
-left: 10%;
-/* right: 72%; */
-font-size: 40px;
+.cardicon1{
+/* position: absolute;
+top: 57%;
+left: 10%; */
+margin-top: 175px;
+margin-left: -230px;
+
+font-size: 30px;
 
 }
+
+/*     
+    @media screen and (max-width:992px){
+
+
+    } */
+
+
 .fa-tools,.fa-hotel,.fa-home{
 background-color: #273451;
 padding: 10px;
@@ -31,16 +41,17 @@ color:rgb(255, 68, 0) !important ;
     color:rgb(255, 68, 0) !important ;
 
 }
-.cardwidth{
+/* .cardwidth{
 
 width: 15rem;
 justify-content: center;
 height: 360px;
-}
+} */
 
 
 .card-img-top{
-height: 170px;
+/* height: 170px; */
+height: auto;
 width: 100% !important;
 }
 .card-text{
@@ -116,13 +127,11 @@ text-align: center;
 
 }
 .firsthead{
-    /* color: rgb(0, 255, 191) !important ; */
-    /* color:  rgb(255, 68, 0) !important; */
-    /* color: #273451; */
+    
     color: #0d3fac;
-    /* text-shadow: 2px 2px 2px  rgb(255, 68, 0); */
+   
     text-shadow:2px 2px 2px #199DC0;
-    /* opacity: 70%; */
+    
 }
 .textblack{
     color: white;
@@ -169,20 +178,79 @@ height: 750px;
 
     width: 90%;
 }
+.cardicon1{
 
-.cardwidth{
-
-    width: 100%;
-    margin-bottom:30px ;
-    height: 330px;
-    
-    }
-/*     
-.logo3{
-font-size: 90px;
+    margin-left: -190px;
+}
 
 }
-.logo4{
-    font-size: 90px;
+
+
+
+
+/* .cardslider {
+    height: auto;
+    width: 100%;
+    background-color: #ffc516;
 } */
+
+
+.maindiv {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.maindiv .slider1,
+.slider2,
+.slider3 {
+    background-color: #fff;
+    margin: 60px 30px;
+    width: 330px;
+    /* height: 100px; */
+    padding: 10px;
+    /* line-height: 20px; */
+    position: relative;
+    /* color: #000000; */
+    /* border: 2px solid black; */
+  
+
+}
+.boxshadow{
+
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+
+.client1,
+.client2,
+.client3 {
+    width: 100%;
+   
+    height: 400px !important;
+    
+    margin-top: 10px;
+    
+    background: #fff;
+}
+
+.client2 img,
+.client3 img {
+    width: 100%;
+    height: 200px;
+}
+
+.client1 img {
+    height: 200px;
+    width: 100%;
+}
+.cardman{
+position: absolute;
+top:43%;
+left: 5%;
+
+padding: 25px 10px ;
+
+
 }
