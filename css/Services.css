@@ -1,0 +1,169 @@
+@import url("Nav.css");
+@import url("Footer.css");
+
+.orange{
+
+
+    color: rgb(253, 89, 29)!important;
+
+}
+.blue{
+
+    color: #273451;
+}
+
+
+.para1{
+
+/* text-indent: 170px; */
+text-indent: 100px;
+/* padding-left: 90px; */
+}
+.para2{
+    text-indent: 90px;
+    /* padding-left: 90px; */
+    }
+    .para3{
+        
+        text-indent: 90px;
+        /* padding-left: 90px; */
+        }
+        .parapadd{
+
+padding-left: 40px;
+        }
+    
+.image1{
+
+    width: 95%;
+    /* width: 500px; */
+    height: 25%;
+}
+dt{
+
+font-size: 20px;
+
+}
+.fontbold{
+font-weight: 500;
+
+}
+.list1{
+
+    /* list-style: round !important; */
+    font-size: 40px;
+    color: rgb(253, 89, 29)!important;
+    
+    }
+    .list2 {
+        list-style-type: circle;
+        
+font-size: 30px;
+color: #273451 !important;
+    }
+
+.list2 li dl dd{
+font-size: 19px;
+margin-left: 40px;
+text-indent: 170px;
+}
+.imageslide{
+
+
+height: 300px !important;
+}
+/* .imageslide1{
+
+
+    height: 290px !important;
+    } */
+    dd{
+margin-left: 50px;
+/* text-indent: -10px; */
+    }
+    .listmain{
+
+margin-left: -10px;
+    }
+
+    h3{
+font-size:25px ;
+
+    }
+
+    h2{
+font-size: 33px;
+
+    }
+@media screen and (max-width:768px){
+
+    .imageslide{
+
+
+        height: 250px !important;
+        }
+    .image1{
+
+        width: 90%;
+        height: 20%;
+    }
+
+    .list1{
+
+        
+        font-size: 30px;
+        
+        }
+        h2{
+            font-size: 28px;
+            
+            }
+            h3{
+                font-size:20px ;
+                font-weight:700;
+                    }
+
+            .list2 li dl dd{
+                font-size: 19px;
+                margin-left: 20px;
+                text-indent: 150px;
+                }
+                .list2 {
+            font-size: 25px;
+            
+                }  
+
+}
+    @media screen and (max-width:576px){
+
+        .image1{
+    
+            width: 90%;
+            height: 15%;
+        }
+        .list1{
+
+            
+            font-size: 25px;
+            
+            }
+
+            h2{
+                font-size: 25px;
+                
+                }
+                h3{
+                    font-size:20px ;
+                    
+                        }
+                .listmain{
+
+                    margin-left: -30px;
+                        }
+                        .list2 {
+                            font-size: 20px;
+                            
+                                }
+                
+
+}

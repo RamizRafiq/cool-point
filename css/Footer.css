@@ -1,0 +1,91 @@
+.contact{
+    font-weight: 200;
+   line-height: normal;
+   
+   
+   } 
+   .mycontainer{
+   
+       max-width:100vw ;
+   }
+   
+   .line{
+   
+       /* width: 2px; */
+       margin-left: 5px;
+       width: 35px;
+   height: 2px;
+   }
+   
+   .logo{
+/*    
+   width: 24px;
+    */
+    font-size: 24px !important;
+    color: rgb(130, 130, 226);
+    
+   }
+   .phone{
+font-size: 24px !important;
+color: rgb(130, 130, 226);
+   }
+   .fontsize{
+font-size: 17px;
+
+   }
+   .logo1{
+   /* font-size: 40px !important; */
+   width: 30px !important;
+
+   margin-right: 12px;
+   }
+
+   .fontweight{
+   
+       font-weight: 500;
+       font-size: 12px;
+   }
+   .line1{
+    
+       margin-left: 0;
+       width: 50%;
+   height: 1px;
+   
+   }
+   .fontw400{
+   font-weight: 300;
+   
+   }
+.copyright{
+
+    background: -webkit-linear-gradient(135deg,#eacda3 40%,  #d6ae7b 70% );
+
+   }
+.copypadd{
+    padding: 2px;
+
+}
+   @media screen and (max-width:768px){
+   
+       /* .logo1{
+   
+           width: 35px;
+           margin-right: 20px;
+           }
+    */
+           .line1{
+   
+               margin-left: 0;
+               width: 90%;
+           height: 1px;
+           }        
+   
+           .fontweight{
+   
+               /* font-weight: 500; */
+               font-size: 14px;
+           }
+   
+   
+   
+   }

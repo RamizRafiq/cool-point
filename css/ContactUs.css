@@ -1,0 +1,73 @@
+@import url("Nav.css");
+
+@import url("Footer.css");
+
+h1{
+font-size: 30px;
+}
+.orange{
+color: rgb(253, 89, 29);
+
+
+}
+.Contactcard{
+    
+    margin: 40px auto;
+    padding: 12px;
+    
+    background-color: rgb(255, 231, 110) !important;
+width: 45%;
+height: 13%;
+border: 2px solid  rgb(255, 182, 47) !important;;
+
+}
+.headcolor{
+
+    /* color: rgb(49, 107, 8); */
+/* color: rgb(0, 0, 104); */
+color: #273451;
+
+}
+
+
+
+.fa-whatsapp,.fa-instagram,.fa-twitter{
+
+    color: blue;
+    border: 2px solid white;
+    border-radius: 50%;
+    border-color: rgb(81, 81, 223);
+    padding: 7px;
+    margin-left: 15px;
+    border-color: blue;
+    }
+    
+    .fa-facebook-f{
+        color: blue;
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 7px 9px;
+       
+        border-color: blue;
+    }
+    .fa-facebook-f:hover,.fa-whatsapp:hover,.fa-instagram:hover,.fa-twitter:hover{
+    
+    /* background-color:rgb(124, 124, 255); */
+    background-color: rgb(127, 214, 21);
+    }
+
+@media screen and (max-width:768px){
+
+h1{
+font-size: 27px !important;
+
+}
+.Contactcard{
+
+    height: 12%;
+    width: 70%;
+}
+
+    
+
+}

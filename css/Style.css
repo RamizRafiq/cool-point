@@ -1,0 +1,188 @@
+@import url("Nav.css");
+ 
+ @import url("Footer.css");
+
+
+body{
+padding: 0;
+margin: 0;
+
+}
+.margin10{
+
+    margin-top: 150px !important;
+}
+
+.cardicon{
+position: absolute;
+top: 35%;
+left: 10%;
+/* right: 72%; */
+font-size: 40px;
+
+}
+.fa-tools,.fa-hotel,.fa-home{
+background-color: #273451;
+padding: 10px;
+color:rgb(255, 68, 0) !important ;
+
+}
+.orange{
+    color:rgb(255, 68, 0) !important ;
+
+}
+.cardwidth{
+
+width: 15rem;
+justify-content: center;
+height: 360px;
+}
+
+
+.card-img-top{
+height: 170px;
+width: 100% !important;
+}
+.card-text{
+padding-top:10px ;
+font-size: 16px !important;
+font-weight: 400 !important;
+}
+.cardhead{
+padding-top: 15px;
+font-size: 20px;
+/* font-weight: 500 !important; */
+}
+ .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+     }
+     .contain{
+
+        position: relative;
+        text-align: center;
+        
+         }
+
+         .heading{
+            display: inline-block;
+            /* width: 60%; */
+            
+        
+        }
+        .box2{
+            margin-top: 20px !important;
+        padding: 10px 15px;
+        /* margin-right: -20px; */
+        width: 100%;
+        opacity: 70%;
+        text-align: center;
+        }
+        
+
+
+
+        .box2 p{
+font-size: 18px;
+
+        }
+     
+ 
+
+
+.one {
+    opacity: 90%;
+background-image: url('another.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+/* background-attachment: fixed; */
+/* height: 100vh; */
+/* margin: 0;
+padding: 0; */
+width: 100%;
+height: 650px;
+/* width: auto; */
+
+}
+.mainbox2{
+
+width: 50%;
+display: inline-block;
+text-align: center;
+
+}
+.firsthead{
+    /* color: rgb(0, 255, 191) !important ; */
+    /* color:  rgb(255, 68, 0) !important; */
+    /* color: #273451; */
+    color: #0d3fac;
+    /* text-shadow: 2px 2px 2px  rgb(255, 68, 0); */
+    text-shadow:2px 2px 2px #199DC0;
+    /* opacity: 70%; */
+}
+.textblack{
+    color: white;
+text-shadow: none;
+font-size: 23px;
+}
+
+.boxshadow{
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+
+}
+.logo3{
+font-size: 40px;
+color: #1A9DC2;
+
+}
+.logo4{
+    font-size: 35px;
+    color: #1A9DC2;
+}
+.logo5{
+    color: #1A9DC2;
+    margin-left: 35px;
+font-size: 43px;
+}
+.dblock{
+display: flex;
+flex-direction: column;
+
+}
+.marginbt{
+margin-bottom: 30px;
+
+}
+
+@media screen and (max-width:768px){
+.one{
+
+height: 750px;
+
+}
+
+.mainbox2{
+
+    width: 90%;
+}
+
+.cardwidth{
+
+    width: 100%;
+    margin-bottom:30px ;
+    height: 330px;
+    
+    }
+/*     
+.logo3{
+font-size: 90px;
+
+}
+.logo4{
+    font-size: 90px;
+} */
+}
